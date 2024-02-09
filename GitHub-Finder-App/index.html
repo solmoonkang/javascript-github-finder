@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Finder App</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        GitHub Finder
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- SEARCH SECTION -->
+        <section class="search-section">
+            <h1>Search GitHub Users</h1>
+            <div>Enter username to fetch a user profile and repos</div>
+            <div class="search-input-container">
+                <input class="search-input" type="text" placeholder="GitHub username"/>
+                <div class="search-history-dropdown" id="searchHistoryDropdown" style="display: none;"></div>
+            </div>
+        </section>
+
+        <!-- USER PROFILE SECTION -->
+        <section class="user-profile-section"></section>
+
+        <!-- LATEST REPOSITORY SECTION -->
+        <section class="latest-repos-section"></section>
+    </main>
+    <script src="script/main.js" type="module"></script>
+</body>
+</html>
